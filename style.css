@@ -63,30 +63,42 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   gap: 32px;
-  margin-top:64px ;
+  margin-top: 64px;
 }
 
 section {
   flex: 1 1 calc(50% - 32px);
   max-width: 400px;
-  margin: 0 16px;
 }
 
 
 @media (max-width: 768px) {
 
-  nav ul {
-    display: flex;
-    flex-direction: row; /* 横並び維持（明示） */
-    flex-wrap: wrap;     /* ←これ重要：折り返しOKにする */
-    justify-content: center;
-    gap: 12px;           /* スマホなので狭くする */
-    margin: 0 8px;
+  .Works {
+    padding: 0 20px;
+    gap: 24px;
   }
 
-  nav a {
-    font-size: 14px;
+  section {
+    max-width: 100%;
   }
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  /* 横並び維持（明示） */
+  flex-wrap: wrap;
+  /* ←これ重要：折り返しOKにする */
+  justify-content: center;
+  gap: 12px;
+  /* スマホなので狭くする */
+  margin: 0 8px;
+}
+
+nav a {
+  font-size: 14px;
+}
 }
 
 h2 {
