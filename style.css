@@ -75,10 +75,12 @@ section {
 @media (max-width: 768px) {
 
   nav ul {
-    flex-direction: column; /* ←これで縦並び確定 */
-    align-items: center;     /* 中央揃え */
-    gap: 12px;
-    margin: 0;
+    display: flex;
+    flex-direction: row; /* 横並び維持（明示） */
+    flex-wrap: wrap;     /* ←これ重要：折り返しOKにする */
+    justify-content: center;
+    gap: 12px;           /* スマホなので狭くする */
+    margin: 0 8px;
   }
 
   nav a {
