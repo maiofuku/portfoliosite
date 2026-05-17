@@ -28,7 +28,7 @@ nav ul {
   justify-content: flex-end;
   gap: 32px;
   list-style: none;
-  margin-right: 8px;
+  margin: 0 16px;
 }
 
 header {
