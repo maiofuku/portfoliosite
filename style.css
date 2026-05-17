@@ -13,16 +13,9 @@ header {
   height: auto;
 }
 
-@media (max-width: 600px) {
-
-  h1,
-  h2,
-  h3 {
-    text-align: center;
-  }
-}
-
 header img {
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 }
 
@@ -49,8 +42,15 @@ h3 {
   font-size: 20px;
 }
 
+section img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
 section {
-  width: 400px;
+  width: 90%;
+  max-width: 400px;
   margin: 64px auto 0;
 }
 
