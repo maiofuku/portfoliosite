@@ -5,12 +5,17 @@
   padding: 0;
 }
 
+body{
+    background-color:#e0ffff;
+}
+
 header {
-  background: #eee;
+  background-color: #4169e1;
   text-align: center;
   padding: 32px 0;
   max-width: 100%;
   height: auto;
+  color: #f0f8ff;
 }
 
 header img {
@@ -22,6 +27,7 @@ header img {
 h1 {
   margin: 16px 0 0;
   font-weight: normal;
+
   font-size: 24px;
 }
 
@@ -46,7 +52,7 @@ section {
   width: 90%;
   max-width: 600px;
   margin: 64px auto 0;
- 
+
 }
 
 section img {
@@ -62,8 +68,7 @@ section p {
 
 .line {
   width: 80px;
-  height: 1px;
-  background-color: #c7bdb4;
+  border-top: 2px dashed #c7bdb4;
   margin: 50px auto;
 }
 
