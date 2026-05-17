@@ -9,6 +9,17 @@ header {
   background: #eee;
   text-align: center;
   padding: 32px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
 }
 
 header img {
@@ -48,7 +59,7 @@ section p {
   line-height: 1.8;
 }
 
-.line{
+.line {
   width: 80px;
   height: 1px;
   background-color: #c7bdb4;
@@ -70,6 +81,6 @@ address {
   margin-top: 16px;
 }
 
-a :hover {
+a:hover {
   opacity: .7;
 }
