@@ -63,16 +63,18 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   gap: 32px;
+  margin-top:64px ;
 }
 
 section {
-  width: calc(50% - 32px);
-  max-width: 500px;
+  flex: 1 1 calc(50% - 32px);
+  max-width: 400px;
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 768px) {
   section {
-    width: 90%;
+    flex: 1 1 100%;
   }
 }
 
@@ -92,9 +94,9 @@ h3 {
 
 section img {
   width: 100%;
-  max-width: 600px;
+  max-width: 100%;
   height: auto;
-  transition: transform .3s ease;
+  display: block;
 }
 
 section img:hover {
